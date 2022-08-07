@@ -10,7 +10,6 @@
 		56A17A5828A0528A0099600B /* BreakingBadAPIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A17A5728A0528A0099600B /* BreakingBadAPIApp.swift */; };
 		56A17A5A28A0528A0099600B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A17A5928A0528A0099600B /* ContentView.swift */; };
 		56A17A5C28A0528C0099600B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56A17A5B28A0528C0099600B /* Assets.xcassets */; };
-		56A17A6A28A056DA0099600B /* ReadMe in Resources */ = {isa = PBXBuildFile; fileRef = 56A17A6928A056DA0099600B /* ReadMe */; };
 		56A17A7228A057740099600B /* example.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A17A7128A057740099600B /* example.png */; };
 /* End PBXBuildFile section */
 
@@ -19,8 +18,8 @@
 		56A17A5728A0528A0099600B /* BreakingBadAPIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakingBadAPIApp.swift; sourceTree = "<group>"; };
 		56A17A5928A0528A0099600B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		56A17A5B28A0528C0099600B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		56A17A6928A056DA0099600B /* ReadMe */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
 		56A17A7128A057740099600B /* example.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = example.png; sourceTree = "<group>"; };
+		56A17A7428A058230099600B /* ReadMe.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ReadMe.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +36,7 @@
 		56A17A4B28A0528A0099600B = {
 			isa = PBXGroup;
 			children = (
-				56A17A6928A056DA0099600B /* ReadMe */,
+				56A17A7428A058230099600B /* ReadMe.md */,
 				56A17A5628A0528A0099600B /* BreakingBadAPI */,
 				56A17A5528A0528A0099600B /* Products */,
 			);
@@ -129,7 +128,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				56A17A7228A057740099600B /* example.png in Resources */,
-				56A17A6A28A056DA0099600B /* ReadMe in Resources */,
 				56A17A5C28A0528C0099600B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
